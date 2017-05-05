@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D01D5F121C928FE000DF2239 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01D5F111C928FE000DF2239 /* AppDelegate.swift */; };
+		D01D5F141C928FE000DF2239 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01D5F131C928FE000DF2239 /* ViewController.swift */; };
+		D01D5F171C928FE000DF2239 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D01D5F151C928FE000DF2239 /* Main.storyboard */; };
+		D01D5F191C928FE000DF2239 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D01D5F181C928FE000DF2239 /* Assets.xcassets */; };
+		D01D5F1C1C928FE000DF2239 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D01D5F1A1C928FE000DF2239 /* LaunchScreen.storyboard */; };
+		D01D5F271C928FE000DF2239 /* Aula2_CronometroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01D5F261C928FE000DF2239 /* Aula2_CronometroTests.swift */; };
+		D01D5F321C928FE000DF2239 /* Aula2_CronometroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01D5F311C928FE000DF2239 /* Aula2_CronometroUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D01D5F231C928FE000DF2239 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D01D5F061C928FE000DF2239 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D01D5F0D1C928FE000DF2239;
+			remoteInfo = "Aula2-Cronometro";
+		};
+		D01D5F2E1C928FE000DF2239 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D01D5F061C928FE000DF2239 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D01D5F0D1C928FE000DF2239;
+			remoteInfo = "Aula2-Cronometro";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D01D5F0E1C928FE000DF2239 /* Aula2-Cronometro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Aula2-Cronometro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D01D5F111C928FE000DF2239 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D01D5F131C928FE000DF2239 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D01D5F161C928FE000DF2239 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D01D5F181C928FE000DF2239 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D01D5F1B1C928FE000DF2239 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D01D5F1D1C928FE000DF2239 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D01D5F221C928FE000DF2239 /* Aula2-CronometroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Aula2-CronometroTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D01D5F261C928FE000DF2239 /* Aula2_CronometroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aula2_CronometroTests.swift; sourceTree = "<group>"; };
+		D01D5F281C928FE000DF2239 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D01D5F2D1C928FE000DF2239 /* Aula2-CronometroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Aula2-CronometroUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D01D5F311C928FE000DF2239 /* Aula2_CronometroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aula2_CronometroUITests.swift; sourceTree = "<group>"; };
+		D01D5F331C928FE000DF2239 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D01D5F0B1C928FE000DF2239 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D01D5F1F1C928FE000DF2239 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D01D5F2A1C928FE000DF2239 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D01D5F051C928FE000DF2239 = {
+			isa = PBXGroup;
+			children = (
+				D01D5F101C928FE000DF2239 /* Aula2-Cronometro */,
+				D01D5F251C928FE000DF2239 /* Aula2-CronometroTests */,
+				D01D5F301C928FE000DF2239 /* Aula2-CronometroUITests */,
+				D01D5F0F1C928FE000DF2239 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D01D5F0F1C928FE000DF2239 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D01D5F0E1C928FE000DF2239 /* Aula2-Cronometro.app */,
+				D01D5F221C928FE000DF2239 /* Aula2-CronometroTests.xctest */,
+				D01D5F2D1C928FE000DF2239 /* Aula2-CronometroUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D01D5F101C928FE000DF2239 /* Aula2-Cronometro */ = {
+			isa = PBXGroup;
+			children = (
+				D01D5F111C928FE000DF2239 /* AppDelegate.swift */,
+				D01D5F131C928FE000DF2239 /* ViewController.swift */,
+				D01D5F151C928FE000DF2239 /* Main.storyboard */,
+				D01D5F181C928FE000DF2239 /* Assets.xcassets */,
+				D01D5F1A1C928FE000DF2239 /* LaunchScreen.storyboard */,
+				D01D5F1D1C928FE000DF2239 /* Info.plist */,
+			);
+			path = "Aula2-Cronometro";
+			sourceTree = "<group>";
+		};
+		D01D5F251C928FE000DF2239 /* Aula2-CronometroTests */ = {
+			isa = PBXGroup;
+			children = (
+				D01D5F261C928FE000DF2239 /* Aula2_CronometroTests.swift */,
+				D01D5F281C928FE000DF2239 /* Info.plist */,
+			);
+			path = "Aula2-CronometroTests";
+			sourceTree = "<group>";
+		};
+		D01D5F301C928FE000DF2239 /* Aula2-CronometroUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D01D5F311C928FE000DF2239 /* Aula2_CronometroUITests.swift */,
+				D01D5F331C928FE000DF2239 /* Info.plist */,
+			);
+			path = "Aula2-CronometroUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D01D5F0D1C928FE000DF2239 /* Aula2-Cronometro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D01D5F361C928FE000DF2239 /* Build configuration list for PBXNativeTarget "Aula2-Cronometro" */;
+			buildPhases = (
+				D01D5F0A1C928FE000DF2239 /* Sources */,
+				D01D5F0B1C928FE000DF2239 /* Frameworks */,
+				D01D5F0C1C928FE000DF2239 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Aula2-Cronometro";
+			productName = "Aula2-Cronometro";
+			productReference = D01D5F0E1C928FE000DF2239 /* Aula2-Cronometro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D01D5F211C928FE000DF2239 /* Aula2-CronometroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D01D5F391C928FE000DF2239 /* Build configuration list for PBXNativeTarget "Aula2-CronometroTests" */;
+			buildPhases = (
+				D01D5F1E1C928FE000DF2239 /* Sources */,
+				D01D5F1F1C928FE000DF2239 /* Frameworks */,
+				D01D5F201C928FE000DF2239 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D01D5F241C928FE000DF2239 /* PBXTargetDependency */,
+			);
+			name = "Aula2-CronometroTests";
+			productName = "Aula2-CronometroTests";
+			productReference = D01D5F221C928FE000DF2239 /* Aula2-CronometroTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D01D5F2C1C928FE000DF2239 /* Aula2-CronometroUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D01D5F3C1C928FE000DF2239 /* Build configuration list for PBXNativeTarget "Aula2-CronometroUITests" */;
+			buildPhases = (
+				D01D5F291C928FE000DF2239 /* Sources */,
+				D01D5F2A1C928FE000DF2239 /* Frameworks */,
+				D01D5F2B1C928FE000DF2239 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D01D5F2F1C928FE000DF2239 /* PBXTargetDependency */,
+			);
+			name = "Aula2-CronometroUITests";
+			productName = "Aula2-CronometroUITests";
+			productReference = D01D5F2D1C928FE000DF2239 /* Aula2-CronometroUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D01D5F061C928FE000DF2239 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Willian Yudi Sirakawa";
+				TargetAttributes = {
+					D01D5F0D1C928FE000DF2239 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = Q6L3FLNLK9;
+					};
+					D01D5F211C928FE000DF2239 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = Q6L3FLNLK9;
+						TestTargetID = D01D5F0D1C928FE000DF2239;
+					};
+					D01D5F2C1C928FE000DF2239 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = Q6L3FLNLK9;
+						TestTargetID = D01D5F0D1C928FE000DF2239;
+					};
+				};
+			};
+			buildConfigurationList = D01D5F091C928FE000DF2239 /* Build configuration list for PBXProject "Aula2-Cronometro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D01D5F051C928FE000DF2239;
+			productRefGroup = D01D5F0F1C928FE000DF2239 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D01D5F0D1C928FE000DF2239 /* Aula2-Cronometro */,
+				D01D5F211C928FE000DF2239 /* Aula2-CronometroTests */,
+				D01D5F2C1C928FE000DF2239 /* Aula2-CronometroUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D01D5F0C1C928FE000DF2239 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D01D5F1C1C928FE000DF2239 /* LaunchScreen.storyboard in Resources */,
+				D01D5F191C928FE000DF2239 /* Assets.xcassets in Resources */,
+				D01D5F171C928FE000DF2239 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D01D5F201C928FE000DF2239 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D01D5F2B1C928FE000DF2239 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D01D5F0A1C928FE000DF2239 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D01D5F141C928FE000DF2239 /* ViewController.swift in Sources */,
+				D01D5F121C928FE000DF2239 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D01D5F1E1C928FE000DF2239 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D01D5F271C928FE000DF2239 /* Aula2_CronometroTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D01D5F291C928FE000DF2239 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D01D5F321C928FE000DF2239 /* Aula2_CronometroUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D01D5F241C928FE000DF2239 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D01D5F0D1C928FE000DF2239 /* Aula2-Cronometro */;
+			targetProxy = D01D5F231C928FE000DF2239 /* PBXContainerItemProxy */;
+		};
+		D01D5F2F1C928FE000DF2239 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D01D5F0D1C928FE000DF2239 /* Aula2-Cronometro */;
+			targetProxy = D01D5F2E1C928FE000DF2239 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D01D5F151C928FE000DF2239 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D01D5F161C928FE000DF2239 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D01D5F1A1C928FE000DF2239 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D01D5F1B1C928FE000DF2239 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D01D5F341C928FE000DF2239 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D01D5F351C928FE000DF2239 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D01D5F371C928FE000DF2239 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Aula2-Cronometro/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yudishira.Aula2-Cronometro";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D01D5F381C928FE000DF2239 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Aula2-Cronometro/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yudishira.Aula2-Cronometro";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D01D5F3A1C928FE000DF2239 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Aula2-CronometroTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yudishira.Aula2-CronometroTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aula2-Cronometro.app/Aula2-Cronometro";
+			};
+			name = Debug;
+		};
+		D01D5F3B1C928FE000DF2239 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Aula2-CronometroTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yudishira.Aula2-CronometroTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aula2-Cronometro.app/Aula2-Cronometro";
+			};
+			name = Release;
+		};
+		D01D5F3D1C928FE000DF2239 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Aula2-CronometroUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yudishira.Aula2-CronometroUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Aula2-Cronometro";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D01D5F3E1C928FE000DF2239 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Aula2-CronometroUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yudishira.Aula2-CronometroUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Aula2-Cronometro";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D01D5F091C928FE000DF2239 /* Build configuration list for PBXProject "Aula2-Cronometro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D01D5F341C928FE000DF2239 /* Debug */,
+				D01D5F351C928FE000DF2239 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D01D5F361C928FE000DF2239 /* Build configuration list for PBXNativeTarget "Aula2-Cronometro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D01D5F371C928FE000DF2239 /* Debug */,
+				D01D5F381C928FE000DF2239 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D01D5F391C928FE000DF2239 /* Build configuration list for PBXNativeTarget "Aula2-CronometroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D01D5F3A1C928FE000DF2239 /* Debug */,
+				D01D5F3B1C928FE000DF2239 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D01D5F3C1C928FE000DF2239 /* Build configuration list for PBXNativeTarget "Aula2-CronometroUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D01D5F3D1C928FE000DF2239 /* Debug */,
+				D01D5F3E1C928FE000DF2239 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D01D5F061C928FE000DF2239 /* Project object */;
+}
